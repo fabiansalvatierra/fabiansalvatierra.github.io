@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.rtl.min.css" integrity="sha384-OXTEbYDqaX2ZY/BOaZV/yFGChYHtrXH2nyXJ372n2Y8abBhrqacCEe+3qhSHtLjy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Shots</title>
+  </head>
+  <body>
+    <!-- ============================================ -->
+    <!-- ENCABEZADO -->
+    <!-- ============================================ -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Cada Momento Vivido es un recuerdo para siempre</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="text-primary fs-5 fw-bold"> Shots</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-primary" id="offcanvasNavbarLabel">Shots</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="servicios.html">servicios</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#equipo">equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contenedor-formulario">contacto</a>
+                </li>
+              </ul>    
+    
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="email" placeholder="correo electronico" aria-label="email">
+                <button class="btn btn-primary btn-primary-outline-success" type="button">suscribete</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- ============================================ -->
+    <!-- equipo -->
+    <!-- ============================================ -->
+
+    <section>
+        <div class="w-75 m-auto text-center" id="equipo">
+            <h1 class="mb-5 fs-2">equipo pequeño con <span class="text-primary"> resultados grandes</span></h1>
+            <p class="fs-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos maiores nemo nihil impedit culpa corporis debitis nostrum obcaecati excepturi voluptas omnis, perferendis labore eius quidem. Sit, error. Aut, tempore similique.</p>
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="./img/DSLR_P1_900x420.jpg.img.jpg" alt="camara">
+        </div>
+    </section>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+   
+  </body>
+</html>

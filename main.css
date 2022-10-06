@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu li > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 70rem;
+}
+
+@media (max-width:768px) {
+    #intro, #equipo {
+        width: 90% !important;
+    }
+
+    #equipo p {
+        display: none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
+#contenedor-formulario {
+       
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+    margin-top: 50px;
+}
+footer {
+    background: #1b2a4b;
+    min-height: 100px;
+
+}
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3 
+}
+
